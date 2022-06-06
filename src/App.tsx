@@ -1,12 +1,8 @@
 import React from 'react';
-import {ApolloProvider, InMemoryCache, ApolloClient } from '@apollo/client'
+import {ApolloProvider } from '@apollo/client'
 import './App.css';
-import Main from "./components/Main"
-
-const client = new ApolloClient({
-  uri: 'https://api.spacex.land/graphql/',
-  cache: new InMemoryCache(),
-})
+import Main from "./components/_Main"
+import client from "./common/apollo-client"
 
 
 function App() {

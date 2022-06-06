@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main {
+  background-image: url('./assets/background-technology-desktop.jpg');
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
+}
+.main >h1 {
+  text-align: center;
+  font-size: 4rem;
+  margin: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.interaction-wrapper {
+  display: flex;
+  margin: 10px;
+
+}
+.filter-wrap {
+  width: 50%;
+  font-size: 2rem;
+}
+.filter-wrap > input {
+  width: 100%;
+  font-size: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sort-wrap {
+  width: 50%;
+  font-size: 2rem;
 }
+
+.sort-wrap > button {
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+}
+
+
