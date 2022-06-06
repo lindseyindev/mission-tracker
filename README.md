@@ -16,3 +16,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 This project utilizes React, Typescript, and the [SpaceX GraphQL API](https://api.spacex.land/graphql).
 
+![UI](https://user-images.githubusercontent.com/89806097/172081952-a9d50ce6-4f35-495a-b6c1-c6832fa529ee.png)
